@@ -262,12 +262,12 @@
       }
     },
     {
-      "type": "sendKeysToElement",
+      "type": "storeElementValue",
       "locator": {
         "type": "name",
         "value": "invoiceFileUpload"
       },
-      "text": "https://github.com/AnouHN/AnouSelenium/blob/AnouSelenium/Kit+testeur/facture+1jpg.jpg"
+      "variable": "https://github.com/AnouHN/AnouSelenium/blob/AnouSelenium/Kit+testeur/facture+1jpg.jpg"
     },
     {
       "type": "setElementText",
