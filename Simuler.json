@@ -1,0 +1,61 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://preprod-illicash.cs88.force.com/"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='simulator__input']/input"
+      },
+      "text": "123456"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='simulator__input']/input"
+      },
+      "text": "!{TAB}"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "VÉRIFIER L'ÉLIGIBILITÉ"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "VÉRIFIER L'ÉLIGIBILITÉ"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "calendar_start"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "calendar_start"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
