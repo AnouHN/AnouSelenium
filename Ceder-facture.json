@@ -262,14 +262,6 @@
       }
     },
     {
-      "type": "storeElementValue",
-      "locator": {
-        "type": "name",
-        "value": "invoiceFileUpload"
-      },
-      "variable": "https://github.com/AnouHN/AnouSelenium/blob/AnouSelenium/Kit+testeur/facture+1jpg.jpg"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -313,6 +305,41 @@
       "type": "mouseOverElement",
       "locator": {
         "type": "css selector",
+        "value": "div.cookie-banner"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "J'ACCEPTE"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "J'ACCEPTE"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "section.desktop-upload"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.desktop-upload__label"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
         "value": "button.btn"
       }
     },
@@ -324,8 +351,33 @@
       }
     },
     {
-      "type": "waitForCurrentUrl",
-      "url": "https://preprod-illicash.cs88.force.com/#/mon-compte/mes-factures"
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='invoice-form__upload']/file-upload/section[1]/img"
+      }
+    },
+    {
+      "type": "storeElementValue",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='invoice-form__upload']/file-upload/section[1]/img"
+      },
+      "variable": "https://github.com/AnouHN/AnouSelenium/blob/AnouSelenium/Kit+testeur/facture+1jpg.jpg"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "section.desktop-upload"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='desktop-upload']/p"
+      }
     }
   ],
   "data": {
