@@ -40,6 +40,13 @@
     {
       "type": "mouseOverElement",
       "locator": {
+        "type": "css selector",
+        "value": "section.debriefing_formSimu"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
         "type": "id",
         "value": "calendar_start"
       }
@@ -50,6 +57,135 @@
         "type": "id",
         "value": "calendar_start"
       }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "section.debriefing_formSimu"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.pika-single.is-bound"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.pika-button.pika-day"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='pika-table']//button[.='1']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='pika-table']//button[.='2']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='pika-table']//button[.='2']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "calendar_end"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "calendar_end"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "calendar"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='calendar']/div[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='calendar']/div[2]/div/table/tbody/tr[5]/td[1]/button"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='calendar']/div[2]/div/table/tbody/tr[5]/td[1]/button"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='debriefing_formSimu']/section[1]/siret/input"
+      },
+      "text": "32212091600208"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='debriefing_formSimu']/section[2]/siret/input"
+      },
+      "text": "38497173500020"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "section.debriefing_formSimu"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.btn"
+      }
+    },
+    {
+      "type": "waitForElementValue",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[@class='message-wrapper']/span"
+      },
+      "value": "Votre facture est éligible au financement."
     }
   ],
   "data": {
