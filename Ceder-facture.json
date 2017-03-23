@@ -337,6 +337,13 @@
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='desktop-upload']/p"
+      }
+    },
+    {
       "type": "mouseOverElement",
       "locator": {
         "type": "css selector",
@@ -348,35 +355,6 @@
       "locator": {
         "type": "css selector",
         "value": "button.btn"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='invoice-form__upload']/file-upload/section[1]/img"
-      }
-    },
-    {
-      "type": "storeElementValue",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='invoice-form__upload']/file-upload/section[1]/img"
-      },
-      "variable": "https://github.com/AnouHN/AnouSelenium/blob/AnouSelenium/Kit+testeur/facture+1jpg.jpg"
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "section.desktop-upload"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//section[@class='desktop-upload']/p"
       }
     }
   ],
