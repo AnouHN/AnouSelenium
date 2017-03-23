@@ -159,6 +159,13 @@
       "text": "38497173500020"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "J'ACCEPTE"
+      }
+    },
+    {
       "type": "mouseOverElement",
       "locator": {
         "type": "css selector",
@@ -180,12 +187,15 @@
       }
     },
     {
-      "type": "waitForElementValue",
+      "type": "waitForElementPresent",
       "locator": {
         "type": "xpath",
         "value": "//span[@class='message-wrapper']/span"
-      },
-      "value": "Votre facture est éligible au financement."
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Votre facture est éligible au financement."
     }
   ],
   "data": {
