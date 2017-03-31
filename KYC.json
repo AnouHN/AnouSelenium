@@ -1,0 +1,208 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://preprod-illicash.cs88.force.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='j_id0:theForm']/digital-facturing/ng-component/basic-header/div/span[2]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='loginform']/form/div[1]/calf-input/div/input"
+      },
+      "text": "anoufm@gmail.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='loginform']/form/div[2]/calf-input/div/input"
+      },
+      "text": "Azerty123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='loginform__actions']/div/input"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "COMPLÉTER"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "COMPLÉTER"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "label"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__form']/div[1]/div[3]/div/toggle/section/div[3]/div/calf-radio-toggle/form/label[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "CONTINUER"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__form']/div[2]/div[1]/div/toggle/section/div[3]/div/calf-checkbox-toggle/label/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.calf-select_select"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.calf-select_option"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__legal-representative']/div/file-upload[1]/section[2]/section[2]/p"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.desktop-upload__label"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.desktop-upload__label"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__legal-representative']/div/file-upload[1]/section[2]/section[2]/p/span[1]/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__legal-representative']/div/file-upload[2]/section[2]/section[2]/p/span[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='profile-qualification__legal-representative']/div/file-upload[2]/section[2]/section[2]/p/span[1]/input"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "checkNumber"
+      },
+      "text": "12"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "bank"
+      },
+      "text": "2223"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "branch"
+      },
+      "text": "3322"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "customerAccountNumber1"
+      },
+      "text": "2332"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "customerAccountNumber2"
+      },
+      "text": "2233"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "customerAccountNumber3"
+      },
+      "text": "4433"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "customerAccountNumber4"
+      },
+      "text": "444"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "CONTINUER"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
